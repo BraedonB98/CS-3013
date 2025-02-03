@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="MSUBlue">#00447c</color>
+    <color name="MSURed">#d11242</color>
+    <color name="MSUGrey">#717073</color>
+</resources>
