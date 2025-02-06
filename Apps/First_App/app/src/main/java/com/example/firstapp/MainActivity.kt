@@ -1,6 +1,6 @@
 package com.example.firstapp
 
-//import android.widget.Toast
+import android.widget.Toast
 //import android.___.webView//!finish this
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -11,7 +11,7 @@ import androidx.core.view.WindowInsetsCompat
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-						//Toast.makeToast(this, "")
+		Toast.makeText(this, "Going to the internet ===" , Toast.LENGTH_LONG).show()
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
