@@ -1,7 +1,7 @@
 package com.example.firstapp
 
 import android.widget.Toast
-//import android.___.webView//!finish this
+//import android.log //!finish this
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
