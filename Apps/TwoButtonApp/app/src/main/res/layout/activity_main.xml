@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+        <TextView
+            android:id="@+id/upText"
+            android:layout_width="match_parent"
+            android:background="@color/red"
+            android:layout_height="100dp"
+            android:fontFamily="cursive"
+            android:textAlignment = "center"
+            android:textSize = "48dp"
+            android:textStyle = "bold"
+            android:textColor="@color/blue"
+            android:text="Upper!"
+            />
+        <TextView
+            android:id="@+id/downText"
+            android:layout_width="match_parent"
+            android:background="@color/blue"
+            android:layout_height="100dp"
+            android:fontFamily="cursive"
+            android:textAlignment = "center"
+            android:textSize = "48dp"
+            android:textStyle = "bold"
+            android:textColor="@color/red"
+            android:text="Lower!"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/upButton"
+                android:layout_width="0dp"
+               android:layout_weight = "1"
+                android:layout_height = "wrap_content"
+                android:text="Toggle Upper"
+                android:onClick="upToggle"/>
+
+            <Button
+                android:id="@+id/downButton"
+                android:layout_width="0dp"
+                android:layout_weight = "1"
+                android:layout_height = "wrap_content"
+                android:text="Toggle Lower"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
